@@ -13,6 +13,7 @@ body {
     background-size: cover;
     height: 340px;
     display: flex;
+    flex-shrink: 0;
     justify-content: space-between;    
     font-style: italic;
     background-color: rgb(236, 231, 213);
@@ -47,7 +48,7 @@ a {
     flex-direction: column;
     align-items: center;
     height: 400px;
-    background-color: rgb(235, 214, 104);
+    background-color: rgb(216, 177, 71);
 }
 
 .content-header {
@@ -57,12 +58,24 @@ a {
 
 .content-buttons {
     gap: 100px;
+    display: flex;
+    text-align: center;
+    color: white;
 }
 
-.color {
+img,
+.content-buttons {
+    height: 200px;
+    width: auto;
+    border-radius: 2rem;
+}
+
+.quote {
     display: flex;
-    flex-direction: column;
-    background-color: red;
-    height: 100px;
-    width: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-style: italic;
+    height: 600px;
+    padding: 40px;
 }
