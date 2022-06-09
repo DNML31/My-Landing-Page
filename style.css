@@ -1,3 +1,7 @@
+html {
+    font-size: 20px;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -21,7 +25,7 @@ body {
 }
 
 .page-name {
-    font-size: 32px;
+    font-size: 1.75rem;
     color: rgb(235, 214, 104);
     font-style:italic;
     font-weight: 900;
@@ -30,7 +34,7 @@ body {
 .links,
 .content-link,
 .content-buttons {
-    font-size: 18px;
+    font-size: 1rem;
     display: flex;
     flex-flow: row nowrap;
     padding: 0;
@@ -54,7 +58,7 @@ a {
 }
 
 .content-header {
-    font-size: 30px;
+    font-size: 1.5rem;
     font-style: italic;
 }
 
@@ -80,7 +84,7 @@ img,
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
+    font-size: 3rem;
     font-style: italic;
     height: 600px;
     padding: 40px;
