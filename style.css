@@ -80,12 +80,24 @@ img,
     gap: 80px;
 }
 
-.quote {
+.quote-section {
+    background-image: url("../My-Landing-Page/pics/vasquez.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* filter: opacity(50%); */
     display: flex;
+    flex-shrink: 0;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    font-size: 3rem;
-    font-style: italic;
-    height: 600px;
+    height: 350px;
     padding: 40px;
+}
+
+.quote {
+    text-align: center;    
+    font-size: 1.8rem;
+    font-style: italic;
+    color: rgb(0, 0, 0);
 }
