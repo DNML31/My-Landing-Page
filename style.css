@@ -21,13 +21,13 @@ body {
     justify-content: space-between;    
     font-style: italic;
     background-color: rgb(236, 231, 213);
-    padding: 40px;
+    padding: 2rem;
 }
 
 .page-name {
     font-size: 1.75rem;
-    color: rgb(235, 214, 104);
-    font-style:italic;
+    color: rgb(255, 213, 0);
+    font-style: italic;
     font-weight: 900;
 }
 
@@ -38,7 +38,7 @@ body {
     display: flex;
     flex-flow: row nowrap;
     padding: 0;
-    gap: 20px;
+    gap: 1rem;
     list-style-type: none;
 }
 
@@ -50,11 +50,12 @@ a {
 .content {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 400px;
-    padding: 40px;
-    background-color: rgb(216, 177, 71);
+    align-items: space-evenly;
+    justify-content: center;
+    height: auto;
+    padding: 2rem;
+    gap: 2rem;
+    background-color: rgb(163, 157, 248);
 }
 
 .content-header {
@@ -62,8 +63,13 @@ a {
     font-style: italic;
 }
 
+.content-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
 .content-link {
-    gap: 80px;
+    /* gap: 80px; */
     display: flex;
     text-align: center;
     font-style: italic;
@@ -74,10 +80,9 @@ a {
 
 img,
 .content-buttons {
-    height: 250px;
-    width: auto;
+    height: 200px;
     border-radius: 2rem;
-    gap: 80px;
+    gap: 3rem;
 }
 
 .quote-section {
@@ -92,12 +97,13 @@ img,
     justify-content: center;
     align-items: center;
     height: 350px;
-    padding: 40px;
+    padding: 2rem;
 }
 
 .quote {
+    width: 700px;
+    padding-top: 100px;
     text-align: center;    
-    font-size: 1.8rem;
-    font-style: italic;
-    color: rgb(0, 0, 0);
+    font-size: 1.58rem;
+    color: rgb(255, 255, 255);
 }
