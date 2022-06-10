@@ -17,11 +17,25 @@ body {
     background-size: cover;
     height: 340px;
     display: flex;
+    flex-direction: column;
     flex-shrink: 0;
     justify-content: space-between;    
     font-style: italic;
     background-color: rgb(236, 231, 213);
     padding: 2rem;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.profileimg {
+    width: 250px;
+    height: auto;
+    margin-left: auto;
+    border-radius: 0.25rem;
 }
 
 .page-name {
@@ -69,7 +83,6 @@ a {
 }
 
 .content-link {
-    /* gap: 80px; */
     display: flex;
     text-align: center;
     font-style: italic;
@@ -78,10 +91,9 @@ a {
     border-color: transparent;
 }
 
-img,
-.content-buttons {
+.content-buttons .contentimg {
     height: 200px;
-    border-radius: 2rem;
+    border-radius: 0.25rem;
     gap: 3rem;
 }
 
@@ -106,4 +118,49 @@ img,
     text-align: center;    
     font-size: 1.58rem;
     color: rgb(255, 255, 255);
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    line-height: 50%;
+    background-color:rgb(255, 213, 0);
+    border-radius: 1rem;
+    padding: 1.5rem 2rem;
+    margin: 6rem;
+    gap: 25px;
+}
+
+.action-signup {
+    display: flex;
+    font-size: 0.65rem;
+}
+
+.signup {
+    font-size: 0.75rem;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.signup a {
+    color: black;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(175, 31, 31);
+    font-size: 0.7rem;
 }
