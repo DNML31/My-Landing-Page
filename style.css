@@ -46,6 +46,10 @@ body {
     width: 600px;
 }
 
+.header-button {
+    border: transparent;
+}
+
 .profileimg {
     width: 250px;
     height: auto;
@@ -163,6 +167,7 @@ a {
     font-size: 0.65rem;
 }
 
+.header-button,
 .signup {
     font-size: 0.75rem;
     padding: 0.75rem;
@@ -171,6 +176,7 @@ a {
     background-color: white;
 }
 
+.header-button a,
 .signup a {
     color: black;
 }
