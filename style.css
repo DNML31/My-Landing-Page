@@ -27,7 +27,6 @@ body {
 .header-top {
     display: flex;
     justify-content: space-between;
-    /* font-style: italic; */
 }
 
 .header-content {
@@ -42,9 +41,10 @@ body {
     margin-left: 1rem;
 }
 
-.header-text .header-subtext {
+.header-subtext {
     font-size: 0.85rem;
-    width: 600px;
+    width: 450px;
+    line-height: 1.25rem;
 }
 
 .header-button,
@@ -161,15 +161,11 @@ a {
     padding: 2rem;
 }
 
-/* .quote-background {
-
-} */
-
 .quote {
     width: 700px;
-    padding-top: 100px;
-    justify-content: center;
-    align-items: center;    
+    /* padding: 100px; */
+    /* justify-content: center;
+    align-items: center;     */
     font-size: 1.58rem;
     color: rgb(255, 255, 255);
 }
@@ -181,6 +177,7 @@ a {
 }
 
 .action-content {
+    flex-shrink: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -194,7 +191,6 @@ a {
 }
 
 .action-signup {
-    display: flex;
     font-size: 0.65rem;
 }
 
