@@ -4,7 +4,11 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
   <title>welcome</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+  rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+  crossorigin="anonymous">
+
+
 </head>
 
 <body>
@@ -12,11 +16,11 @@
     <div class="header-top">
 <!-- "should 'logo' be a real logo?"-->
       <div class="logo">ĐṄṂȽ</div>
-      <ul class="links">
+      <!-- <ul class="links">
         <li><a href="http://www.instagram.com/lstrfnx">Instagram</a></li>
         <li><a href="https://dnml.darkroom.com/">Darkroom</a></li>
         <li><a href="https://soundcloud.com/dnml">Soundcloud</a></li>
-      </ul>
+      </ul> -->
     </div>
     <div class="header-content">
       <div class="header-text">
@@ -31,40 +35,51 @@
     </div>  
   </div>
 
-  <div class="content">
-    <div class="content-header">Thrice - Palms</div>
-    <div class="content-buttons">
-      <button class="content-link">
-        <a href="http://www.google.com"><img src="pics/pinkflowerbluesky.jpeg" class="contentimg" alt="flowersandsky"></a>
-        <p>Somewhere down the way. there's a hidden place that anyone, that all of us could find.
-            But our maps have failed, so venture through the veil and realize these roads are intertwined.
-        </p>
-      </button>
-      <button class="content-link">
-        <a href="http://www.google.com"><img src="pics/nightplant.jpeg" class="contentimg" alt="nightplant"></a>
-        <p>Far beyond those walls, gleaming black and white. Further than our false schemes of wrong and right.
-            Is a field where we can walk leaving all our names behind.
-        </p>
-      </button>
-      <button class="content-link">
-        <a href="http://www.google.com"><img src="pics/ytree.jpeg" class="contentimg" alt="blacktree"></a>
-        <p>I will meet you there, beyond the pines templed in twilight or dawn
-            The light and easy air, tracing the lines on our palms.
-        </p>
-      </button>
-      <button class="content-link">
-        <a href="http://www.google.com"><img src="pics/nighttree.jpeg" class="contentimg" alt="nighttree"></a>
-        <p>Somewhere down the raod is a place that we can go where everyone and everything is divine
-            And when we're all awake we can finally make and end to these divisions in our minds.
-        </p>
-      </button>
-      <button class="content-link">
-        <a href="http://www.google.com"><img src="pics/sunsetflower.jpeg" class="contentimg" alt="sunsetflower"></a>
-        <p>Don't go to sleep, our souls and feet both bare with grass beneath
-          The oaths we needn't swear are vast and deep. Our breath will be our prayer alone, complete.
-        </p>
-      </button>
-    </div>
+  <div class="container">
+    <!-- <div class="content-header">Thrice - Palms</div> -->
+    <button class="content-link" id="instaLinkBtn">
+      <a href="http://www.instagram.com/lstrfnx"><img src="pics/pinkflowerbluesky.jpeg" 
+        class="contentimg" alt="flowersandsky"></a>
+
+      <!-- <p>Somewhere down the way. there's a hidden place that anyone, that all 
+        of us could find. But our maps have failed, so venture through the veil 
+        and realize these roads are intertwined.</p> -->
+    </button>
+
+    <button class="content-link">
+      <a href="https://dnml.darkroom.com" id="darkroomLinkBtn"><img src="pics/nightplant.jpeg" 
+        class="contentimg" alt="nightplant"></a>
+
+      <!-- <p>Far beyond those walls, gleaming black and white. Further than our 
+        false schemes of wrong and right. Is a field where we can walk leaving 
+        all our names behind.</p> -->
+    </button>
+
+    <button class="content-link">
+      <a href="https://soundcloud.com/dnml" id-="soundcloudLinkBtn"><img src="pics/ytree.jpeg" 
+        class="contentimg" alt="blacktree"></a>
+
+      <!-- <p>I will meet you there, beyond the pines templed in twilight or dawn
+          The light and easy air, tracing the lines on our palms.</p> -->
+    </button>
+
+    <button class="content-link">
+      <a href="http://www.google.com"><img src="pics/nighttree.jpeg" 
+        class="contentimg" alt="nighttree"></a>
+
+      <!-- <p>Somewhere down the raod is a place that we can go where everyone and 
+        everything is divine And when we're all awake we can finally make and 
+        end to these divisions in our minds.</p> -->
+    </button>
+
+    <button class="content-link">
+      <a href="http://www.google.com"><img src="pics/sunsetflower.jpeg" 
+        class="contentimg" alt="sunsetflower"></a>
+
+      <!-- <p>Don't go to sleep, our souls and feet both bare with grass beneath
+        The oaths we needn't swear are vast and deep. Our breath will be our 
+        prayer alone, complete.</p> -->
+    </button>
   </div>
 
   <div class="quote-section">
@@ -79,7 +94,9 @@
   <div class="action">
     <div class="action-content">
       <div class="action-text">
-        Call to action! It's time!<p class="action-signup">Sign up for our product by clicking that button right over there!</p>
+        Call to action! It's time!
+        <p class="action-signup">Sign up for our product 
+        by clicking that button right over there!</p>
       </div>
       <a href="http://www.google.com"><button class="signup">Sign up!</button></a>
     </div>
@@ -88,6 +105,8 @@
   <div class="footer">
     <div class="footer-text">Copyright © LSTRFNX 2022</div>
   </div>
+
+  <button id="thisBtn" class="btn btn-primary">Click</button>
 
   <!-- jquery -->
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"
@@ -98,6 +117,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
   integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
   crossorigin="anonymous"></script>
+
+  <script src="script.js"></script>
 
 </body>
 
